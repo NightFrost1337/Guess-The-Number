@@ -15,12 +15,12 @@ os.system("clear")
 while n != num:
 	if n < num:
 	 x=x+1
-	 print (n,' ==> guess a bigger number  -    ',x,'  Guesse(s)')
+	 print (n,' ==> Guess a bigger number  -    ',x,'  Guesse(s)')
 	 n = int(input('guess: '))
 	 os.system("clear")
 	if n > num:
 	 x=x+1
-	 print (n,' ==> guess a smaller number  -    ',x,'  Guesse(s)')
+	 print (n,' ==> Guess a smaller number  -    ',x,'  Guesse(s)')
 	 n = int(input('guess: '))
 	 os.system("clear")
 os.system("clear")
